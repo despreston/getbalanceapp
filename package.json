@@ -2,8 +2,8 @@
   "name": "getbalanceapp.com",
   "version": "1.0.0",
   "description": "Website for Balance",
-  "engines" : {
-    "node" : "8.1.2"
+  "engines": {
+    "node": "8.1.2"
   },
   "main": "index.js",
   "scripts": {},
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/despreston/getbalanceapp.com/issues"
   },
-  "homepage": "https://github.com/despreston/getbalanceapp.com#readme"
+  "homepage": "https://github.com/despreston/getbalanceapp.com#readme",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "hapi": "^16.4.3",
+    "vision": "^4.1.1"
+  }
 }
