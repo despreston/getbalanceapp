@@ -14,10 +14,20 @@ server.connection({
   host: 'localhost'
 });
 
-server.register(require('vision'), err => {
+server.register([require('vision'), require('inert')], err => {
   if (err) {
     console.log(err);
   }
+
+  server.route({
+    method: 'GET',
+    path: '/dist/{param*}',
+    handler: {
+      directory: {
+        path: 'dist'
+      }
+    }
+  });
 
   server.views({
     engines: {

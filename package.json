@@ -20,6 +20,13 @@
   "dependencies": {
     "handlebars": "^4.0.10",
     "hapi": "^16.4.3",
+    "inert": "^4.2.0",
     "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
   }
 }

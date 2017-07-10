@@ -56,3 +56,8 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# distribution directory (compiled JS/SASS)
+dist
+
+**/*.DS_Store
