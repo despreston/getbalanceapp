@@ -1,12 +1,5 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html, body, div {
   background-color: #432B52;
-  height: 100%;
-}
-
-.flex {
-  flex: 1;
 }
 
 

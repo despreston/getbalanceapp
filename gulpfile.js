@@ -16,8 +16,7 @@ gulp.task('watch', ['default'], () => {
         browser: 'google chrome'
     });
 
-    gulp.watch(['lib/routes/**/*.js', '*.js'], ['server']);
-    gulp.watch(['lib/**/*.css'], ['css']);
-    gulp.watch('lib/**/*.html').on('change', reload);
+    gulp.watch(['lib/**/*.js', '*.js'], ['server']);
+    gulp.watch('lib/**/*').on('change', reload);
 });
 
