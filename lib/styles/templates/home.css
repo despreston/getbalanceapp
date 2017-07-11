@@ -54,7 +54,7 @@
   font-style: italic;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   #home {
     flex-direction: column;
     text-align: center;
