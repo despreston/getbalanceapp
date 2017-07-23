@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website for Balance",
   "engines": {
-    "node": "8.1.2"
+    "node": "8.2.1"
   },
   "main": "index.js",
   "scripts": {},
