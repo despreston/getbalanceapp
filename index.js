@@ -29,6 +29,16 @@ server.register([require('vision'), require('inert')], err => {
     }
   });
 
+  server.route({
+    method: 'GET',
+    path: '/assets/{param*}',
+    handler: {
+      directory: {
+        path: 'assets'
+      }
+    }
+  });
+
   server.views({
     engines: {
       html: require('handlebars')
