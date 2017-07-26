@@ -7,6 +7,6 @@ module.exports = () => {
     return gulp.src('styles/**/*.css')
       .pipe(cleanCSS({ inline: ['none'] }, () => null))
       .pipe(concat('style.min.css'))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest('docs'));
   });
 }
