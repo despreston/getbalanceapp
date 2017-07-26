@@ -1,17 +1,2 @@
 # getbalanceapp.com
-Main website for Balance
-
-### Build
-```javascript
-npm i
-```
-### Run
-Development (livereloading, sass compilation)
-```javascript
-gulp watch
-```
-
-Production
-```javascript
-node index.js
-```
+Main website for Balance. Everything is self hosted through github pages. Pushes to master will update the site immediately.
